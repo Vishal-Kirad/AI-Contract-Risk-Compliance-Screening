@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+RCenv/
+venv/
+.venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CUAD raw dataset
+CUADv1.json
+train.json
+test.json
+train_separate_questions.json
+
+# Trained model files
+final_model.pkl
+final_tfidf.pkl
+risk_threshold.pkl
+risk_weights.pkl
+model_metadata.pkl
+*.joblib
+
+# Streamlit secrets/cache
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/log files
+*.log
+*.tmp
+*.temp
